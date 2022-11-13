@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>Document </title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <section>
+        <div>
+            <h1>JSON AJAX</h1>
+            <h1>
+
+
+
+
+
+
+
+
+                <button id="btn" onclick=" myFunction () ">fetch information for that</button>
+    </section>
+    <h3>
+        <div id="animal-info"></div>
+    </h3>
+
+    <script>
+
+        const btn = document.getElementById('btn');
+        var pageCounter = 1;
+
+        var animalContainer = document.getElementById("animal-info");
+
+        function myFunction() {
+
+            var thisIsMyRequest = new XMLHttpRequest();
+
+            thisIsMyRequest.open('GET', 'https://learnwebcode.github.io/json-example/animals-' + pageCounter + '.json');
+            thisIsMyRequest.onload = function () {
+                var ourData = JSON.parse(thisIsMyRequest.responseText);
+
+                renderHTML(ourData)
+
+            };
+            thisIsMyRequest.send();
+
+
+
+            pageCounter++;
+
+            if (pageCounter > 3) {
+
+                btn.style.visibility = 'hidden';
+            }
+
+        };
+        function renderHTML(data) {
+
+            var htmlString = "";
+
+            for (i = 0; i < data.length; i++) {
+                htmlString += "<p>" + data[i].name + "is a" + data[i].species + ".</p>";
+            }
+
+
+
+            animalContainer.insertAdjacentHTML('beforeend', htmlString);
+
+        }
+    </script>
+
+
+
+
+
+</body>
+
+</html>
