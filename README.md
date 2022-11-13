@@ -1,7 +1,7 @@
 ### Webpage
--This is is the main repo that we should work on.
+- This is is the main repo that we should work on.
 
-[!]It is 30% complete 
+- It is 30% complete 
 - I HAVE NO IDEA OF EXACTLY WAT THE WEBSITE SHOULD HELP SHIELD ANY IDEA IS VALID. My idea was that we build a strong and dynamic web site with almost every language .
 
 - I have excluded mysql database but i will upload the image of the database name ,table and entities.
@@ -16,9 +16,10 @@
 - We shall make everything in order before we make it public.
 - Any other issue to be discussed I shield blacksite.
 ### Index page
-<center>![image](https://user-images.githubusercontent.com/73772907/201515441-33e34c24-1687-42ea-98b8-e46624fdc216.png)</center>
+
+![image](https://user-images.githubusercontent.com/73772907/201515441-33e34c24-1687-42ea-98b8-e46624fdc216.png)
 
 ### Home page
 - This is the home page with three buttons the first button will be used to fetch data from shield API, the second and the third button are for redirects to other pages. 
-<center>![image](https://user-images.githubusercontent.com/73772907/201515534-1fe16651-daa4-4b3a-88c3-2e53042b13a1.png)</center>
+![image](https://user-images.githubusercontent.com/73772907/201515534-1fe16651-daa4-4b3a-88c3-2e53042b13a1.png)
 
