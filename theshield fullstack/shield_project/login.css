@@ -33,10 +33,7 @@ button {
     }   
         
      
- .container {   
-        padding: 25px;   
-        background-color: lightblue;  
-    }   
+    
     .fname {   
         background-color: #4CAF50;   
         width: 100%;  
@@ -124,4 +121,10 @@ button {
    margin: 10px 0px;   
    border: none;   
    cursor: pointer;   
-    } 
+    }
+  
+.container {   
+    max-width: 1000px;
+  
+}    
+    
