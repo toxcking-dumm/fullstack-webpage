@@ -1,7 +1,9 @@
-### Webpage
+### Webpage   https://toxicking-techguru.github.io/shield/
+
 - This is is the main repo that we should work on.
 
 - It is 30% complete 
+- here is the website new(merged)  commits will be reflected here.  https://toxicking-techguru.github.io/shield/
 - I HAVE NO IDEA OF EXACTLY WAT THE WEBSITE SHOULD HELP SHIELD ANY IDEA IS VALID. My idea was that we build a strong and dynamic web site with almost every language .
 
 - I have excluded mysql database but i will upload the image of the database name ,table and entities.
