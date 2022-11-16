@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-
+<html>
 <head>
 
-    <title>Document </title>
+   
     <link rel="stylesheet" href="login.css">
-<head>
+</head>
 
 
     <section>
         <div>
-            <h1>JSON AJAX</h1>
+            <h1> WELCOME TO OUR SHIELD PAGE!</h1>
             <h1>
 
 
@@ -24,6 +24,7 @@
                 <a href="login.html"><button>Go To company forms</button></a>
 
                 <a href=" signinform.html"><button>Go To Pentester,P FORM</button></a>
+                <a href=" home.html"><button>Go To presentation page</button></a>
 
     </section>
 </head>
@@ -41,7 +42,7 @@
 
             var thisIsMyRequest = new XMLHttpRequest();
 
-            thisIsMyRequest.open('GET', 'https://learnwebcode.github.io/json-example/animals-' + pageCounter + '.json');
+            thisIsMyRequest.open('GET', 'https://th3-shield.github.io/shield-api/users-' + pageCounter + '.json');
             thisIsMyRequest.onload = function () {
                 var ourData = JSON.parse(thisIsMyRequest.responseText);
 
@@ -54,7 +55,7 @@
 
             pageCounter++;
 
-            if (pageCounter > 3) {
+            if (pageCounter > 2) {
 
                 btn.style.visibility = 'hidden';
             }
@@ -65,7 +66,7 @@
             var htmlString = "";
 
             for (i = 0; i < data.length; i++) {
-                htmlString += "<p>" + data[i].name + "is a" + data[i].species + ".</p>";
+                htmlString += "<p>" + data[i].name + " was  found  to be vulnerable by  " + data[i].goodat + ".</p>";
             }
 
 
